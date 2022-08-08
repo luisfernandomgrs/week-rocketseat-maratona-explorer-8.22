@@ -20,7 +20,6 @@ header h1 {
   line-height: 33px;
   /* Inside auto layout */
 
-
   display: flex;
   flex-direction: row;
 }
@@ -82,6 +81,8 @@ header h1 span {
 
 .item .focus strong {
   text-align: right;
+  font-weight: 400;
+  font-size: 24px;
   width: 30%;
 }
 
