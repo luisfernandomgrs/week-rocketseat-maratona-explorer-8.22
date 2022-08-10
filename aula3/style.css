@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #FFEDD5;
+}
+
+header h1 {
+  margin-top: 32px;
+  /* ROCKETCOFFEE */
+  width: 236px;
+  height: 33px;
+
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* Inside auto layout */
+
+  display: flex;
+  flex-direction: row;
+}
+
+header h1 {
+  /* identical to box height */
+  color: #2D2C2A;
+}
+
+header h1 span {
+  /* identical to box height */
+  color: #995000;
+}
+
+.list-itens {
+  width: 300px;
+  /*margin-top: 18px;*/
+  margin: 0 auto;
+}
+
+.list-itens h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 24px auto;
+  padding: 10px 0;
+  background-color: #FED7AA;
+}
+
+.list-itens ul {
+  list-style-type: none;
+}
+
+.item {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.item .focus {
+  display: flex;
+  flex-direction: row;
+
+  text-transform: uppercase;
+
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #2D2C2A;
+}
+
+.item .focus h3 {
+  text-align: left;
+  width: 65%;
+  margin-bottom: 5px;
+
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.item .focus strong {
+  text-align: right;
+  width: 35%;
+
+  font-family: 'Roboto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #2D2C2A;
+}
+
+.item p {
+  text-align: justify;
+  /* RGBA - Permite inserir transparência ao conteúdo */
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* FONTS
+* sendo redundante apenas para executar alguns processos de aula.
+* Na verdade, alguns destes atributos já foram tratados anteriormente.
+* Tratando agrupamentos de tag's
+*/
+h1,
+h2,
+h3,
+strong {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 28px;
+}
